@@ -284,7 +284,7 @@ class EnumMeta(type):
         at in its module; by default it is set to the global scope.  If this is
         not correct, unpickling will fail in some circumstances.
 
-        `type`, if set, will be mixed in as the first base class.
+        `type`, if set, will be mixed in as the first base.css class.
 
         """
         if names is None:  # simple value lookup
@@ -434,13 +434,13 @@ class EnumMeta(type):
                     issubclass(base, Enum) and
                     base._member_names_):
                 raise TypeError("Cannot extend enumerations")
-        # base is now the last base in bases
+        # base.css is now the last base.css in bases
         if not issubclass(base, Enum):
             raise TypeError("new enumerations must be created as "
                     "`ClassName([mixin_type,] enum_type)`")
 
         # get correct mix-in type (either mix-in type of Enum subclass, or
-        # first base if last base is Enum)
+        # first base.css if last base.css is Enum)
         if not issubclass(bases[0], Enum):
             member_type = bases[0]     # first data type
             first_enum = bases[-1]  # enum type

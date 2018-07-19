@@ -28,7 +28,7 @@ def _register(abstract_cls, *classes):
 
 class Finder(metaclass=abc.ABCMeta):
 
-    """Legacy abstract base class for import finders.
+    """Legacy abstract base.css class for import finders.
 
     It may be subclassed for compatibility with legacy third party
     reimplementations of the import system.  Otherwise, finder
@@ -46,7 +46,7 @@ class Finder(metaclass=abc.ABCMeta):
 
 class MetaPathFinder(Finder):
 
-    """Abstract base class for import finders on sys.meta_path."""
+    """Abstract base.css class for import finders on sys.meta_path."""
 
     # We don't define find_spec() here since that would break
     # hasattr checks we do to support backward compatibility.
@@ -78,7 +78,7 @@ _register(MetaPathFinder, machinery.BuiltinImporter, machinery.FrozenImporter,
 
 class PathEntryFinder(Finder):
 
-    """Abstract base class for path entry finders used by PathFinder."""
+    """Abstract base.css class for path entry finders used by PathFinder."""
 
     # We don't define find_spec() here since that would break
     # hasattr checks we do to support backward compatibility.
@@ -122,7 +122,7 @@ _register(PathEntryFinder, machinery.FileFinder)
 
 class Loader(metaclass=abc.ABCMeta):
 
-    """Abstract base class for import loaders."""
+    """Abstract base.css class for import loaders."""
 
     def create_module(self, spec):
         """Return a module to initialize and into which to load.
@@ -169,7 +169,7 @@ class Loader(metaclass=abc.ABCMeta):
 
 class ResourceLoader(Loader):
 
-    """Abstract base class for loaders which can return data from their
+    """Abstract base.css class for loaders which can return data from their
     back-end storage.
 
     This ABC represents one of the optional protocols specified by PEP 302.
@@ -185,7 +185,7 @@ class ResourceLoader(Loader):
 
 class InspectLoader(Loader):
 
-    """Abstract base class for loaders which support inspection about the
+    """Abstract base.css class for loaders which support inspection about the
     modules they can load.
 
     This ABC represents one of the optional protocols specified by PEP 302.
@@ -238,7 +238,7 @@ _register(InspectLoader, machinery.BuiltinImporter, machinery.FrozenImporter)
 
 class ExecutionLoader(InspectLoader):
 
-    """Abstract base class for loaders that wish to support the execution of
+    """Abstract base.css class for loaders that wish to support the execution of
     modules as scripts.
 
     This ABC represents one of the optional protocols specified in PEP 302.
@@ -275,7 +275,7 @@ _register(ExecutionLoader, machinery.ExtensionFileLoader)
 
 class FileLoader(_bootstrap_external.FileLoader, ResourceLoader, ExecutionLoader):
 
-    """Abstract base class partially implementing the ResourceLoader and
+    """Abstract base.css class partially implementing the ResourceLoader and
     ExecutionLoader ABCs."""
 
 _register(FileLoader, machinery.SourceFileLoader,
@@ -284,7 +284,7 @@ _register(FileLoader, machinery.SourceFileLoader,
 
 class SourceLoader(_bootstrap_external.SourceLoader, ResourceLoader, ExecutionLoader):
 
-    """Abstract base class for loading source code (and optionally any
+    """Abstract base.css class for loading source code (and optionally any
     corresponding bytecode).
 
     To support loading from source code, the abstractmethods inherited from

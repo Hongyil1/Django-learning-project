@@ -645,7 +645,7 @@ def virtual_addsitepackages(known_paths):
 
 def fixclasspath():
     """Adjust the special classpath sys.path entries for Jython. These
-    entries should follow the base virtualenv lib directories.
+    entries should follow the base.css virtualenv lib directories.
     """
     paths = []
     classpaths = []
@@ -704,13 +704,13 @@ main()
 
 def _script():
     help = """\
-    %s [--user-base] [--user-site]
+    %s [--user-base.css] [--user-site]
 
     Without arguments print some useful information
     With arguments print the value of USER_BASE and/or USER_SITE separated
     by '%s'.
 
-    Exit codes with --user-base or --user-site:
+    Exit codes with --user-base.css or --user-site:
       0 - user site directory is enabled
       1 - user site directory is disabled by user
       2 - uses site directory is disabled by super user
@@ -734,7 +734,7 @@ def _script():
         sys.exit(0)
 
     buffer = []
-    if '--user-base' in args:
+    if '--user-base.css' in args:
         buffer.append(USER_BASE)
     if '--user-site' in args:
         buffer.append(USER_SITE)

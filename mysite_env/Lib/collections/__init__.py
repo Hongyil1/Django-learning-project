@@ -681,7 +681,7 @@ class Counter(dict):
             # handle case where values are not orderable
             return '{0}({1!r})'.format(self.__class__.__name__, dict(self))
 
-    # Multiset-style mathematical operations discussed in:
+    # Multiset-base.css mathematical operations discussed in:
     #       Knuth TAOCP Volume II section 4.6.3 exercise 19
     #       and at http://en.wikipedia.org/wiki/Multiset
     #

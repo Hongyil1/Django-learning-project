@@ -199,7 +199,7 @@ def itn(n, digits=8, format=DEFAULT_FORMAT):
     # (8**(digits-1))-1. GNU tar allows storing numbers greater than
     # that if necessary. A leading 0o200 or 0o377 byte indicate this
     # particular encoding, the following digits-1 bytes are a big-endian
-    # base-256 representation. This allows values up to (256**(digits-1))-1.
+    # base.css-256 representation. This allows values up to (256**(digits-1))-1.
     # A 0o200 byte indicates a positive number, a 0o377 byte a negative
     # number.
     if 0 <= n < 8 ** (digits - 1):

@@ -2,12 +2,195 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="215212c6-d9eb-4ce5-a576-90787ae7944b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysite_env/mysite/blog/templates/blog_detail.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysite_env/mysite/blog/templates/blog_list.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysite_env/mysite/blog/templates/blogs_with_type.html" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite_env/mysite/mysite/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite_env/mysite/static/base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite_env/mysite/static/home.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite_env/mysite/templates/home.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/mysite/blog/views.py" afterPath="$PROJECT_DIR$/mysite_env/mysite/blog/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/base64.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/base64.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/codecs.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/codecs.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/collections/__init__.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/collections/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/copyreg.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/copyreg.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/encodings/punycode.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/encodings/punycode.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/encodings/utf_16.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/encodings/utf_16.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/encodings/utf_32.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/encodings/utf_32.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/enum.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/enum.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/fnmatch.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/fnmatch.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/functools.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/functools.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/importlib/abc.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/importlib/abc.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/ntpath.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/ntpath.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/os.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/os.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/posixpath.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/posixpath.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/random.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/random.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/shutil.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/shutil.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/contrib/admin/checks.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/contrib/admin/checks.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/contrib/admin/views/main.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/contrib/admin/views/main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/contrib/auth/hashers.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/contrib/auth/hashers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/contrib/auth/models.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/contrib/auth/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/contrib/auth/tokens.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/contrib/auth/tokens.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/contrib/flatpages/templatetags/flatpages.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/contrib/flatpages/templatetags/flatpages.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/contrib/gis/db/backends/postgis/adapter.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/contrib/gis/db/backends/postgis/adapter.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/contrib/gis/db/models/fields.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/contrib/gis/db/models/fields.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/contrib/gis/db/models/functions.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/contrib/gis/db/models/functions.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/contrib/gis/forms/widgets.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/contrib/gis/forms/widgets.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/contrib/gis/gdal/geometries.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/contrib/gis/gdal/geometries.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/contrib/gis/gdal/raster/const.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/contrib/gis/gdal/raster/const.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/contrib/gis/geos/error.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/contrib/gis/geos/error.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/contrib/gis/geos/geometry.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/contrib/gis/geos/geometry.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/contrib/gis/geos/linestring.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/contrib/gis/geos/linestring.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/contrib/gis/geos/mutable_list.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/contrib/gis/geos/mutable_list.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/contrib/gis/templates/gis/admin/openlayers.html" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/contrib/gis/templates/gis/admin/openlayers.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/contrib/gis/utils/layermapping.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/contrib/gis/utils/layermapping.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/contrib/humanize/templatetags/humanize.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/contrib/humanize/templatetags/humanize.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/contrib/messages/storage/base.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/contrib/messages/storage/base.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/contrib/postgres/fields/array.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/contrib/postgres/fields/array.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/contrib/staticfiles/finders.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/contrib/staticfiles/finders.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/contrib/staticfiles/management/commands/collectstatic.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/contrib/staticfiles/management/commands/collectstatic.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/contrib/staticfiles/storage.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/contrib/staticfiles/storage.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/core/files/images.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/core/files/images.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/core/files/storage.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/core/files/storage.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/core/mail/backends/filebased.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/core/mail/backends/filebased.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/core/management/base.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/core/management/base.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/core/management/color.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/core/management/color.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/core/management/commands/dumpdata.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/core/management/commands/dumpdata.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/core/management/commands/makemessages.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/core/management/commands/makemessages.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/core/management/commands/migrate.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/core/management/commands/migrate.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/core/management/templates.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/core/management/templates.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/core/serializers/base.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/core/serializers/base.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/core/serializers/pyyaml.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/core/serializers/pyyaml.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/db/backends/base/features.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/db/backends/base/features.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/db/backends/base/operations.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/db/backends/base/operations.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/db/backends/dummy/base.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/db/backends/dummy/base.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/db/backends/mysql/operations.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/db/backends/mysql/operations.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/db/backends/oracle/base.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/db/backends/oracle/base.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/db/backends/oracle/compiler.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/db/backends/oracle/compiler.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/db/backends/oracle/operations.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/db/backends/oracle/operations.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/db/backends/postgresql/operations.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/db/backends/postgresql/operations.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/db/backends/sqlite3/base.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/db/backends/sqlite3/base.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/db/migrations/autodetector.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/db/migrations/autodetector.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/db/migrations/exceptions.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/db/migrations/exceptions.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/db/migrations/migration.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/db/migrations/migration.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/db/migrations/questioner.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/db/migrations/questioner.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/db/migrations/state.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/db/migrations/state.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/db/models/base.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/db/models/base.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/db/models/fields/files.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/db/models/fields/files.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/db/models/fields/related_descriptors.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/db/models/fields/related_descriptors.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/db/models/functions/__init__.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/db/models/functions/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/db/models/options.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/db/models/options.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/db/models/sql/compiler.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/db/models/sql/compiler.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/db/models/sql/datastructures.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/db/models/sql/datastructures.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/db/models/sql/query.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/db/models/sql/query.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/db/models/sql/subqueries.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/db/models/sql/subqueries.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/db/utils.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/db/utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/forms/forms.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/forms/forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/forms/utils.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/forms/utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/forms/widgets.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/forms/widgets.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/http/request.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/http/request.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/http/response.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/http/response.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/middleware/gzip.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/middleware/gzip.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/template/defaultfilters.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/template/defaultfilters.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/template/loader_tags.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/template/loader_tags.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/template/response.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/template/response.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/templatetags/i18n.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/templatetags/i18n.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/templatetags/static.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/templatetags/static.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/test/client.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/test/client.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/test/html.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/test/html.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/test/runner.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/test/runner.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/test/selenium.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/test/selenium.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/test/testcases.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/test/testcases.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/test/utils.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/test/utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/utils/_os.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/utils/_os.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/utils/baseconv.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/utils/baseconv.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/utils/crypto.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/utils/crypto.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/utils/dateformat.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/utils/dateformat.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/utils/dates.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/utils/dates.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/utils/http.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/utils/http.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/utils/six.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/utils/six.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/utils/termcolors.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/utils/termcolors.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/utils/text.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/utils/text.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/utils/translation/trans_real.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/utils/translation/trans_real.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/views/csrf.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/views/csrf.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/views/generic/dates.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/views/generic/dates.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/views/generic/detail.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/views/generic/detail.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/views/generic/edit.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/views/generic/edit.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/views/generic/list.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/django/views/generic/list.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_internal/build_env.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_internal/build_env.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_internal/configuration.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_internal/configuration.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_internal/index.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_internal/index.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_internal/locations.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_internal/locations.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_internal/req/req_file.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_internal/req/req_file.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_internal/req/req_install.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_internal/req/req_install.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_internal/utils/appdirs.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_internal/utils/appdirs.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_internal/utils/ui.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_internal/utils/ui.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_internal/vcs/__init__.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_internal/vcs/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/appdirs.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/appdirs.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/chardet/langbulgarianmodel.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/chardet/langbulgarianmodel.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/colorama/winterm.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/colorama/winterm.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/distlib/_backport/shutil.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/distlib/_backport/shutil.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/distlib/_backport/sysconfig.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/distlib/_backport/sysconfig.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/distlib/compat.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/distlib/compat.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/distlib/database.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/distlib/database.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/distlib/locators.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/distlib/locators.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/distlib/manifest.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/distlib/manifest.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/distlib/metadata.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/distlib/metadata.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/distlib/util.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/distlib/util.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/distro.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/distro.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/html5lib/_trie/_base.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/html5lib/_trie/_base.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/html5lib/constants.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/html5lib/constants.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/html5lib/filters/optionaltags.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/html5lib/filters/optionaltags.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/html5lib/filters/sanitizer.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/html5lib/filters/sanitizer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/html5lib/html5parser.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/html5lib/html5parser.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/html5lib/serializer.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/html5lib/serializer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/html5lib/treewalkers/base.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/html5lib/treewalkers/base.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/ipaddress.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/ipaddress.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/lockfile/__init__.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/lockfile/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/packaging/_compat.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/packaging/_compat.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/pkg_resources/__init__.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/pkg_resources/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/pyparsing.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/pyparsing.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/requests/adapters.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/requests/adapters.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/requests/utils.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/requests/utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/six.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/six.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/urllib3/exceptions.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/urllib3/exceptions.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/urllib3/fields.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/urllib3/fields.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/urllib3/packages/six.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/urllib3/packages/six.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/urllib3/response.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pip/_vendor/urllib3/response.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pkg_resources/__init__.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pkg_resources/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pkg_resources/_vendor/appdirs.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pkg_resources/_vendor/appdirs.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pkg_resources/_vendor/packaging/_compat.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pkg_resources/_vendor/packaging/_compat.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pkg_resources/_vendor/pyparsing.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pkg_resources/_vendor/pyparsing.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pkg_resources/_vendor/six.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pkg_resources/_vendor/six.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pytz/tzinfo.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/pytz/tzinfo.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/setuptools/__init__.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/setuptools/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/setuptools/_vendor/packaging/_compat.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/setuptools/_vendor/packaging/_compat.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/setuptools/_vendor/pyparsing.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/setuptools/_vendor/pyparsing.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/setuptools/_vendor/six.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/setuptools/_vendor/six.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/setuptools/build_meta.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/setuptools/build_meta.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/setuptools/command/bdist_egg.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/setuptools/command/bdist_egg.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/setuptools/command/build_ext.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/setuptools/command/build_ext.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/setuptools/command/build_py.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/setuptools/command/build_py.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/setuptools/command/develop.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/setuptools/command/develop.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/setuptools/command/dist_info.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/setuptools/command/dist_info.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/setuptools/command/easy_install.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/setuptools/command/easy_install.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/setuptools/command/egg_info.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/setuptools/command/egg_info.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/setuptools/command/install.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/setuptools/command/install.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/setuptools/command/sdist.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/setuptools/command/sdist.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/setuptools/command/setopt.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/setuptools/command/setopt.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/setuptools/dist.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/setuptools/dist.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/setuptools/glob.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/setuptools/glob.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/setuptools/monkey.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/setuptools/monkey.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/setuptools/package_index.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/setuptools/package_index.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/setuptools/py36compat.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/setuptools/py36compat.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/wheel/egg2wheel.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/wheel/egg2wheel.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/wheel/install.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/wheel/install.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/wheel/metadata.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/wheel/metadata.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site-packages/wheel/signatures/djbec.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site-packages/wheel/signatures/djbec.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/site.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/site.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/sre_parse.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/sre_parse.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/Lib/tarfile.py" afterPath="$PROJECT_DIR$/mysite_env/Lib/tarfile.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/mysite/blog/urls.py" afterPath="$PROJECT_DIR$/mysite_env/mysite/blog/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/mysite/mysite/settings.py" afterPath="$PROJECT_DIR$/mysite_env/mysite/mysite/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/mysite/mysite/urls.py" afterPath="$PROJECT_DIR$/mysite_env/mysite/mysite/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite_env/mysite/templates/base.html" afterPath="$PROJECT_DIR$/mysite_env/mysite/templates/base.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -42,11 +225,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysite_env/mysite/mysite/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="50" column="1" lean-forward="true" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
+            <state relative-caret-position="694">
+              <caret line="127" column="1" lean-forward="true" selection-start-line="127" selection-start-column="1" selection-end-line="127" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -55,11 +238,63 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysite_env/mysite/blog/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="7" column="40" lean-forward="false" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+            <state relative-caret-position="234">
+              <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mysite_env/mysite/templates/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysite_env/mysite/static/home.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysite_env/mysite/mysite/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+              <folding>
+                <element signature="e#630#662#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysite_env/mysite/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysite_env/mysite/static/base.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -83,21 +318,26 @@
         <option value="$PROJECT_DIR$/mysite_env/mysite/blog/admin.py" />
         <option value="$PROJECT_DIR$/mysite_env/mysite/blog/models.py" />
         <option value="$PROJECT_DIR$/mysite_env/mysite/blog/templates/blog_title.html" />
-        <option value="$PROJECT_DIR$/mysite_env/mysite/mysite/urls.py" />
-        <option value="$PROJECT_DIR$/mysite_env/mysite/blog/urls.py" />
         <option value="$PROJECT_DIR$/mysite_env/mysite/blog/templates/templete.html" />
         <option value="$PROJECT_DIR$/mysite_env/mysite/blog/templates/blog_list.html" />
         <option value="$PROJECT_DIR$/mysite_env/mysite/blog/templates/blog_detail.html" />
         <option value="$PROJECT_DIR$/mysite_env/mysite/blog/templates/base.html" />
         <option value="$PROJECT_DIR$/mysite_env/mysite/blog/templates/blogs_with_type.html" />
-        <option value="$PROJECT_DIR$/mysite_env/mysite/mysite/settings.py" />
         <option value="$PROJECT_DIR$/mysite_env/mysite/blog/views.py" />
+        <option value="$PROJECT_DIR$/mysite_env/mysite/mysite/views.py" />
+        <option value="$PROJECT_DIR$/mysite_env/mysite/blog/urls.py" />
+        <option value="$PROJECT_DIR$/mysite_env/mysite/mysite/urls.py" />
+        <option value="$PROJECT_DIR$/mysite_env/mysite/static/style" />
+        <option value="$PROJECT_DIR$/mysite_env/mysite/mysite/settings.py" />
+        <option value="$PROJECT_DIR$/mysite_env/mysite/static/home.css" />
+        <option value="$PROJECT_DIR$/mysite_env/mysite/templates/base.html" />
+        <option value="$PROJECT_DIR$/mysite_env/mysite/templates/home.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="1136" />
-    <option name="width" value="794" />
+    <option name="x" value="950" />
+    <option name="width" value="980" />
     <option name="height" value="1090" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -163,6 +403,27 @@
               <item name="mysite" type="462c0819:PsiDirectoryNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Django-learning-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django-learning-project" type="462c0819:PsiDirectoryNode" />
+              <item name="mysite_env" type="462c0819:PsiDirectoryNode" />
+              <item name="mysite" type="462c0819:PsiDirectoryNode" />
+              <item name="mysite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Django-learning-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django-learning-project" type="462c0819:PsiDirectoryNode" />
+              <item name="mysite_env" type="462c0819:PsiDirectoryNode" />
+              <item name="mysite" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Django-learning-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django-learning-project" type="462c0819:PsiDirectoryNode" />
+              <item name="mysite_env" type="462c0819:PsiDirectoryNode" />
+              <item name="mysite" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -201,12 +462,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1136" y="0" width="794" height="1090" extended-state="1" />
+    <frame x="950" y="0" width="980" height="1090" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.497151" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.393018" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -220,9 +482,11 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -237,7 +501,7 @@
         <state relative-caret-position="234">
           <caret line="9" column="80" lean-forward="false" selection-start-line="9" selection-start-column="80" selection-end-line="9" selection-end-column="80" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -250,28 +514,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite_env/mysite/mysite/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mysite_env/mysite/blog/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite_env/mysite/blog/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="40" lean-forward="false" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
@@ -320,10 +566,70 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mysite_env/mysite/blog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite_env/mysite/static/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mysite_env/mysite/mysite/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="50" column="1" lean-forward="true" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
+        <state relative-caret-position="694">
+          <caret line="127" column="1" lean-forward="true" selection-start-line="127" selection-start-column="1" selection-end-line="127" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite_env/mysite/mysite/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite_env/mysite/mysite/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding>
+            <element signature="e#630#662#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite_env/mysite/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite_env/mysite/static/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite_env/mysite/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
           <folding />
         </state>
       </provider>

@@ -77,7 +77,7 @@ BOM64_LE = BOM_UTF32_LE
 BOM64_BE = BOM_UTF32_BE
 
 
-### Codec base classes (defining the API)
+### Codec base.css classes (defining the API)
 
 class CodecInfo(tuple):
     """Codec details when looking up the codec registry"""

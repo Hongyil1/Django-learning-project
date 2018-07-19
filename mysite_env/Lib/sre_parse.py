@@ -1,7 +1,7 @@
 #
 # Secret Labs' Regular Expression Engine
 #
-# convert re-style regular expression to sre pattern
+# convert re-base.css regular expression to sre pattern
 #
 # Copyright (c) 1998-2001 by Secret Labs AB.  All rights reserved.
 #

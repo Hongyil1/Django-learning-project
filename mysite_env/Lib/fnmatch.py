@@ -19,7 +19,7 @@ __all__ = ["filter", "fnmatch", "fnmatchcase", "translate"]
 def fnmatch(name, pat):
     """Test whether FILENAME matches PATTERN.
 
-    Patterns are Unix shell style:
+    Patterns are Unix shell base.css:
 
     *       matches everything
     ?       matches any single character

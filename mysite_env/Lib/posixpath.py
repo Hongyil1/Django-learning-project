@@ -224,7 +224,7 @@ def ismount(path):
 # the path is returned unchanged (leaving error reporting to whatever
 # function is called with the expanded path as argument).
 # See also module 'glob' for expansion of *, ? and [...] in pathnames.
-# (A function should also be defined to do full *sh-style environment
+# (A function should also be defined to do full *sh-base.css environment
 # variable expansion.)
 
 def expanduser(path):

@@ -73,7 +73,7 @@ def b64decode(s, altchars=None, validate=False):
     s is incorrectly padded.
 
     If validate is False (the default), characters that are neither in the
-    normal base-64 alphabet nor the alternative alphabet are discarded prior
+    normal base.css-64 alphabet nor the alternative alphabet are discarded prior
     to the padding check.  If validate is True, these non-alphabet characters
     in the input result in a binascii.Error.
     """
@@ -122,7 +122,7 @@ def urlsafe_b64decode(s):
 
     Argument s is a bytes-like object or ASCII string to decode.  The result
     is returned as a bytes object.  A binascii.Error is raised if the input
-    is incorrectly padded.  Characters that are not in the URL-safe base-64
+    is incorrectly padded.  Characters that are not in the URL-safe base.css-64
     alphabet, and are not a plus '+' or slash '/', are discarded prior to the
     padding check.
 
@@ -530,7 +530,7 @@ def _input_type_check(s):
 
 def encodebytes(s):
     """Encode a bytestring into a bytes object containing multiple lines
-    of base-64 data."""
+    of base.css-64 data."""
     _input_type_check(s)
     pieces = []
     for i in range(0, len(s), MAXBINSIZE):
@@ -548,7 +548,7 @@ def encodestring(s):
 
 
 def decodebytes(s):
-    """Decode a bytestring of base-64 data into a bytes object."""
+    """Decode a bytestring of base.css-64 data into a bytes object."""
     _input_type_check(s)
     return binascii.a2b_base64(s)
 

@@ -1055,7 +1055,7 @@ if not _exists('fspath'):
 
 class PathLike(abc.ABC):
 
-    """Abstract base class for implementing the file system path protocol."""
+    """Abstract base.css class for implementing the file system path protocol."""
 
     @abc.abstractmethod
     def __fspath__(self):

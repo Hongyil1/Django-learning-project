@@ -69,7 +69,7 @@ RECIP_BPF = 2**-BPF
 import _random
 
 class Random(_random.Random):
-    """Random number generator base class used by bound module functions.
+    """Random number generator base.css class used by bound module functions.
 
     Used to instantiate instances of Random to get generators that don't
     share state.

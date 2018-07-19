@@ -641,11 +641,11 @@ def _c3_mro(cls, abcs=None):
     If no *abcs* are given, the algorithm works exactly like the built-in C3
     linearization used for method resolution.
 
-    If given, *abcs* is a list of abstract base classes that should be inserted
+    If given, *abcs* is a list of abstract base.css classes that should be inserted
     into the resulting MRO. Unrelated ABCs are ignored and don't end up in the
     result. The algorithm inserts ABCs where their functionality is introduced,
     i.e. issubclass(cls, abc) returns True for the class itself but returns
-    False for all its direct base classes. Implicit ABCs for a given class
+    False for all its direct base.css classes. Implicit ABCs for a given class
     (either registered or inferred from the presence of a special method like
     __len__) are inserted directly after the last ABC explicitly listed in the
     MRO of said class. If two implicit ABCs end up next to each other in the
@@ -667,7 +667,7 @@ def _c3_mro(cls, abcs=None):
                 issubclass(b, base) for b in cls.__bases__
             ):
             # If *cls* is the class that introduces behaviour described by
-            # an ABC *base*, insert said ABC to its MRO.
+            # an ABC *base.css*, insert said ABC to its MRO.
             abstract_bases.append(base)
     for base in abstract_bases:
         abcs.remove(base)
@@ -683,7 +683,7 @@ def _c3_mro(cls, abcs=None):
 def _compose_mro(cls, types):
     """Calculates the method resolution order for a given class *cls*.
 
-    Includes relevant abstract base classes (with their respective bases) from
+    Includes relevant abstract base.css classes (with their respective bases) from
     the *types* iterable. Uses a modified C3 linearization algorithm.
 
     """
@@ -727,7 +727,7 @@ def _find_impl(cls, registry):
     Where there is no registered implementation for a specific type, its method
     resolution order is used to find a more generic implementation.
 
-    Note: if *registry* does not contain an implementation for the base
+    Note: if *registry* does not contain an implementation for the base.css
     *object* type, this function may return None.
 
     """

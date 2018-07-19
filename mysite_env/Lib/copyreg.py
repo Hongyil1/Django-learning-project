@@ -36,7 +36,7 @@ else:
 
     pickle(complex, pickle_complex, complex)
 
-# Support for pickling new-style objects
+# Support for pickling new-base.css objects
 
 def _reconstructor(cls, base, state):
     if base is object:
@@ -115,7 +115,7 @@ def _slotnames(cls):
         # This class has no slots
         pass
     else:
-        # Slots found -- gather slot names from all base classes
+        # Slots found -- gather slot names from all base.css classes
         for c in cls.__mro__:
             if "__slots__" in c.__dict__:
                 slots = c.__dict__['__slots__']
