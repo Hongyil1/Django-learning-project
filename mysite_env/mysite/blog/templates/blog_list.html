@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My site</title>
+</head>
+<body>
+    <div>
+        <a href="{% url 'home' %}"></a>
+        <h3>My personal blog</h3>
+    </div>
+    <hr>
+
+    <!--blogs come from views-->
+    {% for blog in blogs %}
+        <a href="{% url 'blog_detail' blog.pk %}">
+            <h3 >{{ blog.title }}</h3 >
+        </a>
+        <!--<p>{{ blog.content|truncatewords:30 }}</p>-->
+        <p>{{ blog.content|truncatechars:30 }}</p>
+
+    {% empty %}
+        <p>-- No Blogs now, to be continue --</p>
+    {% endfor %}
+    <p>The total number of blogs is {{ blogs_count}}</p>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ blog.title }}</title>
+</head>
+<body>
+    <div>
+        <a href="{% url 'home' %}">
+            <h3>My personal blog</h3>
+        </a>
+    </div>
+    <h3>{{ blog.title }}</h3>
+    <p>Author: {{ blog.author }}</p>
+    <p>Publish time: {{ blog.created_time|date:"Y-m-d H:n:s" }}</p>
+    <p>Blog Type:
+        <a href="{% url 'blogs_with_type' blog.blog_type.pk %}">{{ blog.blog_type }}</a>
+    </p>
+    <p>{{ blog.content }}</p>
+</body>
+</html>
