@@ -17,9 +17,9 @@
     <div class="row">
         <div class="col-xs-12 col-sm-8 col-md-9 col-lg-10">
             <div class="panel panel-default">
-                <div class="panel-heading">{% block blog_list_title %}Blog List (The total number of blogs is {{ page_of_blogs.paginator.count }}){% endblock %}</div>
+                <div class="panel-heading">{% block blog_list_title %}Blog List {% endblock %}</div>
                 <div class="panel-body">
-                    {% for blog in page_of_blogs.object_list %}
+                    {% for blog in blogs %}
                         <div class="blog">
                             <h3><a href="{% url 'blog_detail' blog.pk %}">{{ blog.title }}</a></h3>
                             <!--<p>{{ blog.content|truncatewords:30 }}</p>-->
@@ -37,7 +37,7 @@
                     {% endfor %}
                 </div>
             </div>
-            <div>
+            <div class='paginator'>
                 <ul class="pagination">
                     <!--Previous page-->
                     <li>
@@ -50,8 +50,16 @@
                         {% endif %}
                     </li>
                     <!--All pages-->
-                    {% for page_num in page_of_blogs.paginator.page_range %}
-                        <li><a href="?page={{ page_num }}">{{ page_num }}</a></li>
+                    {% for page_num in page_range %}
+                        {% if page_num == page_of_blogs.number %}
+                            <li class="active"><a href="?page={{ page_num }}">{{ page_num }}</a></li>
+                        {% else %}
+                            {% if page_num == '...' %}
+                                <li><span>{{ page_num }}</span></li>
+                            {% else %}
+                                <li><a href="?page={{ page_num }}">{{ page_num }}</a></li>
+                            {% endif %}
+                        {% endif %}
                     {% endfor %}
                     <!--The next page-->
                     <li>
@@ -62,9 +70,13 @@
                         {% else %}
                             <span aria-hidden="true">&raquo;</span>
                         {% endif %}
-
                     </li>
                 </ul>
+                <p>
+                    The total number of blogs is {{ page_of_blogs.paginator.count }},
+                    This is page {{ page_of_blogs.number }},
+                    There are {{ page_of_blogs.paginator.num_pages }} pages in total.
+                </p>
             </div>
         </div>
         <div class="hidden-xs col-sm-4 col-md-3 col-lg-2">
