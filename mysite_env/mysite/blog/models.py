@@ -20,3 +20,7 @@ class Blog(models.Model):
     def __str__(self):
         return "<Blog: {0}>".format(self.title)
 
+    class Meta:
+        # created time 倒叙
+        ordering = ['-created_time']
+
